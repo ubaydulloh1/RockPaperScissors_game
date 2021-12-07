@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../../MyBulma/bulma-0.9.3/bulma/css/bulma.css"> -->
+    <link rel="stylesheet" href="../../1fontawesome-free-5.15.4-web/css/all.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title is-3">Rock Paper Scissors</h1>
+    </header>
+
+    <section>
+        <div id="user-emoji"></div>
+        <div class="score-board">
+            <div class="badge user-name">User</div>
+            <div class="badge comp-name">Comp</div>
+
+            <span id="user-score">0</span>
+            :
+            <span id="comp-score">0</span>
+        </div>
+        <div id="comp-emoji"></div>
+    </section>
+
+    <h3 class="fedback-result">
+        Let's play <span>Rock Paper Scissors</span> with Computer!
+    </h3>
+
+    <div id="rps-board">
+        <button class="btn" id="rock">👊️</button>
+        <button class="btn" id="paper">✋</button>
+        <button class="btn" id="scissors">🤞️</button>
+    </div>
+    <p>Make your move.</p>
+    <button id="reset">Reset</button>
+    <!-- <div class="buttons">
+        <button>Reset</button>
+        <button>Start</button>
+    </div> -->
+
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
